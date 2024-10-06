@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Place holder image path generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <h1>Placeholder image path generator</h1>
+      <div>
+        <label for="selectImage">Image size :</label>
+        <select id="selectImage">
+          <option value="150x50">Small(100x50)</option>
+          <option value="200x200">Medium Square (200x200)</option>
+          <option value="350x150">Medium (350x150)</option>
+          <option value="400x400">Large Square(400x400)</option>
+          <option value="650x350">Large(650x350)</option>
+          <option value="800x600">X-Large(800x600)</option>
+          <option value="1920x1080">Full HD(1920x1080)</option>
+        </select>
+      </div>
+      <div class="parent">
+        <label for="nameOnImage">Text on Image :</label>
+        <input type="text" id="nameOnImage" />
+      </div>
+
+      <div class="parent">
+        <label for="backgroundColor">Background Color :</label>
+        <input type="color" name="" value="#543234" id="backgroundColor" />
+      </div>
+      <div class="parent">
+        <label for="textColor">Text Color :</label>
+        <input type="color" name="" value="#678567" id="textColor" />
+      </div>
+      <div class="container">
+        <img src="" alt="" />
+        <br />
+        <label for="urlPath"></label>
+        <textarea name="" id="urlPath" cols="50" rows="2">
+Link will be available here</textarea
+        >
+      </div>
+    </section>
+    <!--? Connecting script -->
+    <script src="index.js"></script>
+  </body>
+</html>
